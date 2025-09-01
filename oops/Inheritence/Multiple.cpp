@@ -34,4 +34,8 @@ public:
 int main(){
     D d;
     d.printValue();
+
+    D *d1 = new D();
+    d1->setValue(20);
+    d1->printValue();
 }
